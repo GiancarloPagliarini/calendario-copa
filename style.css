@@ -147,4 +147,32 @@ header {
 }
 
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121214;
+    text-align: center;
+    animation: appear 0.8s;
+    margin-top: 50px;
+    padding: 18px;
+    color: #E1E1E6;
+}
+
+span {
+    color:#F7DD43;
+}
+
+footer img { 
+    background-color: #202024;
+    border-radius: 10px;
+    margin-left: 18px;
+}
+
+footer img:hover {
+    background-color: #F7DD43;
+    transition: background-color 0.25s ease-in-out;
+}
+
+
 
